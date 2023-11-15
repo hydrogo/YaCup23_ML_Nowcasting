@@ -1,0 +1,17 @@
+name: yacup_tf
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - tensorflow
+  - keras
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - jupyter
+  - h5py
+  - pysteps
+  - pip
+  - pip:
+    - segmentation-models
